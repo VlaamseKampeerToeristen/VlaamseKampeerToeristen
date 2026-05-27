@@ -1,6 +1,6 @@
-# VlaamseKampeerToeristen.github.io
+# vlaamsekampeertoeristen
 
-This repository exists solely to serve the **MTA-STS policy** for `vkt.be` via GitHub Pages.
+This repository exists solely to serve the **MTA-STS policy** for `vlaamsekampeertoeristen.be` via GitHub Pages.
 
 ## What is MTA-STS?
 
@@ -11,17 +11,17 @@ MTA-STS (Mail Transfer Agent Strict Transport Security) is an email security sta
 GitHub Pages serves the MTA-STS policy file at the required URL:
 
 ```
-https://mta-sts.vkt.be/.well-known/mta-sts.txt
+https://mta-sts.vlaamsekampeertoeristen.be/.well-known/mta-sts.txt
 ```
 
-The custom domain `mta-sts.vkt.be` points to this GitHub Pages site, making the policy accessible to external mail servers.
+The custom domain `mta-sts.vlaamsekampeertoeristen.be` points to this GitHub Pages site, making the policy accessible to external mail servers.
 
 ## Repository contents
 
 - [`.well-known/mta-sts.txt`](.well-known/mta-sts.txt) — the MTA-STS policy file
-- [`CNAME`](CNAME) — contains the custom domain (`mta-sts.vkt.be`) used by GitHub Pages; rename to `CNAME` (no extension) to activate it
+- [`CNAME`](CNAME) — contains the custom domain (`mta-sts.vlaamsekampeertoeristen.be`) used by GitHub Pages; rename to `CNAME` (no extension) to activate it
 - [`_config.yml`](_config.yml) — Jekyll config to ensure the `.well-known` directory is included
 
 ## Do not modify
 
-This repository should not be used for anything other than hosting the MTA-STS policy. Changes to the policy file may affect email delivery for `vkt.be`.
+This repository should not be used for anything other than hosting the MTA-STS policy. Changes to the policy file may affect email delivery for `vlaamsekampeertoeristen.be`.
